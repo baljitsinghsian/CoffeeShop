@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    text-decoration: none;
+    margin: 20px;
+    text-decoration: wavy;
+    background-color: burlywood;
+    border-radius: 20px;
+   
+}
+.crousal img{
+    height: 500px;
+   
+   z-index: 1;
+    margin-bottom: 12px;
+}
+.spl{
+ 
+  
+    width: 100%;
+}
+.spl img{
+    position: relative;
+  transition: 0.3s;
+    height: 200px; 
+}
+.splcard{
+    margin: 30px;
+   box-shadow: 0 0 10px ;;
+   z-index: 0;
+}
+.splcard img:hover{
+ transform: scale(1.01);
+}
+
+.coffee img{
+
+height: 200px; 
+}
+.cardcee{
+    position: relative;
+    top: 40px;
+    margin: 20px;
+    box-shadow: 4px 0px 12px;
+    transition: 0.3s;
+}
+.cardcee:hover{
+
+    transform: scale(1.1);
+}
+.coffee{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-right:60px ;
+}
+.colbs{
+    margin: 10px;
+}
+.btn{
+   
+ 
+    border: 1px solid black;
+}
+.btn:hover{
+    border: 1px solid black;
+    background-color: burlywood;
+    color: white;
+    font-weight:bold ;
+}
+.bgcard{
+    z-index: 1;
+    height: 500px;
+    display: flex;
+    position: relative;
+    background-image:url("https://images.unsplash.com/photo-1447933601403-0c6688de566e?q=80&w=1961&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+}
+.bgcard img{
+    margin-top: 20px;
+    height: 400px;
+    transition: 0.3s;
+    position: relative;
+    top: 20px;
+ 
+}
+.bgcard img:hover{
+    transform:scale(1.1) ;
+
+}
+.pngtxt{
+    display: flex;
+  margin: 30px;
+    align-items: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+.show{
+    margin-top: 20px;
+}
+.showcardft{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1579422539802-dc771d0f5636?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29mZmVlJTIwbGVhZiUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D");
+    height: 400px;
+  margin: 20px;
+  width: 600px;
+    border-radius: 50px 50px 0px 50px;
+}
+.showcardsd{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1552346988-bf70b50d3c98?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGNvZmZlZSUyMGxlYWZ8ZW58MHx8MHx8fDA%3D");
+    height: 400px;
+    width: 600px;
+  margin: 20px;
+
+    border-radius: 50px 52px 50px 0px;
+}
+.showcardtd{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://plus.unsplash.com/premium_photo-1671379523824-c8aae61cb52a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGNvZmZlZXxlbnwwfHwwfHx8MA%3D%3D");
+    height: 400px;
+    width: 600px;
+  margin: 20px;
+
+    border-radius: 50px 0px 50px 50px;
+}
+.showcardfh{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1513530176992-0cf39c4cbed4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGNvZmZlZXxlbnwwfHwwfHx8MA%3D%3D");
+    height: 400px;
+    width: 600px;
+  margin: 20px;
+  border-radius: 0px 52px 50px 50px;
+}
+.show,.showsec{
+    margin-bottom: 20px;
+
+   
+    display: flex;
+width: 100%;
+    justify-content: space-around;
+}
+.showcardfh:hover,.showcardsd:hover,.showcardtd:hover,.showcardft:hover{
+    border: 3px solid black;
+    filter: brightness(1.1);
+}
+.showcardfh,.showcardsd,.showcardtd,.showcardft{
+text-align: center;
+display: flex;
+transition: 0.3s;
+align-items: center;
+justify-content: center;
+}
+.footer{
+    height:300px;
+background-color: rgb(0, 0, 0);
+border: 2px solid rgb(254, 254, 254);
+display: flex;
+width: 100%;
+}
+.firstrow{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px 0px 190px;
+}
+.firstrow a{
+    margin: 8px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgb(154, 144, 144);
+}
+.secrow{
+    width: 400px;
+    position: relative;
+    margin: 20px 20px 0px 20px;
+ left: 200px;
+ color: rgb(154, 144, 144);
+}
+.thirdrow{
+    position: relative;
+    margin: 20px;
+    left: 200px;
+    color: rgb(154, 144, 144);
+}
+.circles{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 300px;
+}
+.item{
+    text-align: center;
+}
+.item img:hover{
+    border: 2px solid rgb(255, 255, 255);
+}
+.circles img{
+    transition: 0.3s;
+border-radius: 50%;
+height: 150px;  
+margin: 10px;
+border: 2px solid;
+}
+
+.secbgcard{
+    background-image: url("https://plus.unsplash.com/premium_photo-1675435646764-54d18dab6bd8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid ;
+    margin: 10px;
+    border-radius: 40px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    margin-top: 100px;
+}
+.secbgcard h3{
+    font-size:30px;
+}
+.secbgcard p{
+    font-size:20px;
+}
+
+.secbgcard button{
+    color: aliceblue;
+    background-color: burlywood;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+@media only screen and (max-width:600px){
+.bgcard{
+    display: block;
+    height: auto;
+
+}
+.bgcard img {
+    position: relative;
+   
+    width: 370px;
+    margin: 0px;
+ 
+}
+.pngtxt {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+.detail{
+    margin: 20px;
+}
+.show,.showsec{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+  
+}
+.show{
+    margin-top: 470px;
+}
+
+.showcardft,.showcardsd,.showcardtd,.showcardfh{
+    width: 380px;
+    margin-top: 50px;
+}
+
+.footer{
+    display: block;
+    height: auto;
+    width: auto;
+    text-align: center;
+} 
+.footer p{
+    margin: 10px;
+}
+.firstrow{
+    margin: 0px;
+}
+.secrow{
+    display: inline;
+    position: relative;
+    right: auto;
+    left: auto;
+    margin: 0px;
+}
+.thirdrow{
+    display: block;
+    left: auto;
+}
+}

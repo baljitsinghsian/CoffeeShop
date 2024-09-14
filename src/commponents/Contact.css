@@ -1,0 +1,83 @@
+.con{
+    background-image: url("https://images.unsplash.com/photo-1536227661368-deef57acf708?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.fform{
+    background-color: rgba(222, 184, 135, 0.469);
+   
+padding: 10px;
+border-radius: 30px;
+ display: flex;
+
+ flex-direction: row;
+ backdrop-filter: blur(3px);
+}
+.fform h1{
+    background-color: rgba(255, 255, 255, 0);
+    color: aliceblue;
+}
+.fform input,.message{
+border: none;
+padding: 10px;
+position: relative;
+justify-content: center;
+align-items: center;
+width: 450px;
+transition: 0.3s;
+    margin: 0px;
+    padding: 10px;
+color: aliceblue;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+}
+.text::placeholder,.number::placeholder,.message::placeholder{
+    color: aliceblue;
+}
+.fform input:focus,.message:focus{
+border: 2px solid white;
+font-size: large;
+}
+.fform button{
+    padding: 10px;
+    margin: 10px;
+   width: 200px;
+   position: relative;
+   left: 120px;
+    background-color: blanchedalmond;
+    border-radius: 12px;
+}
+.fform button:hover{
+background-color: burlywood;
+}
+span{
+    color: red;
+    position: absolute;
+    
+
+
+}
+@media only screen and (max-width:600px) {
+   
+    .fform{
+     
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fform input,.message{
+        width: 300px;
+    }
+    .fform button{
+        margin: 10px;
+        position: relative;
+        left: 30px;
+
+    }
+
+}
